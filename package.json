@@ -1,7 +1,7 @@
 {
-  "name": "t",
+  "name": "node-noble-xiaomi-kingsmith-r1-pro-walkingpad",
   "version": "1.0.0",
-  "description": "",
+  "description": "node noble xiaomi kingsmith r1 pro walkingpad",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
