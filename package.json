@@ -1,8 +1,16 @@
 {
   "name": "node-noble-xiaomi-kingsmith-r1-pro-walkingpad",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "node noble xiaomi kingsmith r1 pro walkingpad",
   "main": "index.js",
+  "keywords": [
+    "r1 pro",
+    "r1",
+    "kingsmith r1 pro",
+    "xiaomi r1 pro",
+    "xiaomi r1",
+    "kingsmith"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
