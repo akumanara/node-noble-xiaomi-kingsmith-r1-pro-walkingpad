@@ -1,0 +1,33 @@
+id: '574c4d191bfc',
+  uuid: '574c4d191bfc',
+  address: '57:4c:4d:19:1b:fc',
+  addressType: 'public',
+  connectable: true,
+  advertisement: {
+    localName: 'R1 Pro',
+    txPowerLevel: undefined,
+    manufacturerData: <Buffer 60 00 57 4c 4d 19 1b fc>,
+    serviceData: [],
+    serviceUuids: [ 'fe00' ],
+    solicitationServiceUuids: [],
+    serviceSolicitationUuids: []
+  },
+  rssi: -73,
+  services: null,
+  state: 'disconnected'
+
+
+found service: fe00
+found characteristic: fe01
+found characteristic: fe02
+
+in python code:
+cmd = bytearray([247, 162, 4, 1, 0xff, 253])
+
+original
+bytearray(b'\xf7\xa2\x04\x01\xff\xfd')
+
+after crc
+bytearray(b'\xf7\xa2\x04\x01\xa7\xfd')
+
+
